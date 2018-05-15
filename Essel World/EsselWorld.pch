@@ -1,0 +1,18 @@
+//
+//  EsselWorld.pch
+//  Essel World
+//
+//  Created by Karan Ram Pal on 19/11/16.
+//  Copyright © 2016 Kwebmaker. All rights reserved.
+//
+
+#ifndef EsselWorld_pch
+#define EsselWorld_pch
+
+#ifdef __OBJC__
+#import "Constants.h"
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* EsselWorld_pch */

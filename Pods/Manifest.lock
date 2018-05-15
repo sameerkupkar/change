@@ -1,0 +1,40 @@
+PODS:
+  - KNSemiModalViewController_hons82 (0.4.5)
+  - MBProgressHUD (1.0.0)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - OpenSSL-Universal (1.0.2.13)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - THCalendarDatePicker (1.2.8):
+    - KNSemiModalViewController_hons82 (~> 0.4.5)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.0.0)
+  - MMDrawerController (~> 0.5.7)
+  - OpenSSL-Universal
+  - SDWebImage (~> 3.8)
+  - THCalendarDatePicker (~> 1.2.6)
+
+SPEC CHECKSUMS:
+  KNSemiModalViewController_hons82: 0ef0ef5ed7c3814ddd0fa9c884ab74d5495de16b
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  THCalendarDatePicker: fd1a1103ae0d1d1f2d0f9a1463a3f628a23a25a5
+
+PODFILE CHECKSUM: 22a917f8b9f1d3ea9208af74a24c9c61b599f61e
+
+COCOAPODS: 1.4.0

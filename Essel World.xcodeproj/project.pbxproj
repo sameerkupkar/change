@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030AF7FD1EA9C9D300A04BAB /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030AF7FC1EA9C9D300A04BAB /* Landing.storyboard */; };
+		030AF8001EA9CA2A00A04BAB /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030AF7FF1EA9CA2A00A04BAB /* DrawerViewController.m */; };
+		1FEC012DC388778F0DCE2E0A /* libPods-Essel World.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172F4B876AD08DAD276B0B0 /* libPods-Essel World.a */; };
+		2B214D0D207F451500D945F9 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B214D0C207F451500D945F9 /* SplashScreen.png */; };
+		2B96B7E7207F61720015B149 /* NEWSplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B96B7E6207F61720015B149 /* NEWSplashScreen.png */; };
+		4130C9DA2064E22F002D80C1 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4130C9D62064E1EF002D80C1 /* libcrypto.a */; };
+		4130C9DB2064E22F002D80C1 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4130C9D72064E1F0002D80C1 /* libssl.a */; };
+		4130C9E22064E8C6002D80C1 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4130C9DC2064E5AC002D80C1 /* Utilities.m */; };
+		4136C947206A53D3005C3A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4136C946206A53D3005C3A93 /* Images.xcassets */; };
+		4A5D31FF1EA79F3100D14E3A /* ViewMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D31FE1EA79F3100D14E3A /* ViewMoreVC.m */; };
+		792771F41DDDD3E00062C1BD /* BookingTicketsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792771F31DDDD3E00062C1BD /* BookingTicketsFirstViewController.m */; };
+		792772001DE3255B0062C1BD /* RidesFoodOther.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792771FF1DE3255B0062C1BD /* RidesFoodOther.storyboard */; };
+		792772031DE325EE0062C1BD /* OtherAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772021DE325EE0062C1BD /* OtherAttractionViewController.m */; };
+		792772071DE326600062C1BD /* OtherAttractionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772061DE326600062C1BD /* OtherAttractionCollectionViewCell.m */; };
+		7927720D1DE407DF0062C1BD /* Rides-OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927720C1DE407DF0062C1BD /* Rides-OtherViewController.m */; };
+		792772111DE412760062C1BD /* RidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772101DE412760062C1BD /* RidesViewController.m */; };
+		792772141DE412870062C1BD /* RidesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772131DE412870062C1BD /* RidesCollectionViewController.m */; };
+		792772181DE433340062C1BD /* FoodAndBeveragesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772171DE433340062C1BD /* FoodAndBeveragesViewController.m */; };
+		7927721B1DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927721A1DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.m */; };
+		7927721D1DE452490062C1BD /* LocationParkGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7927721C1DE452490062C1BD /* LocationParkGuide.storyboard */; };
+		792772211DE458E60062C1BD /* ParkingTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772201DE458E60062C1BD /* ParkingTimingViewController.m */; };
+		792772241DE458FA0062C1BD /* ParkingTimingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772231DE458FA0062C1BD /* ParkingTimingTableViewCell.m */; };
+		792772271DE46AB80062C1BD /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772261DE46AB80062C1BD /* MyProfileViewController.m */; };
+		7927728B1DED67AE0062C1BD /* SAPAdditionalInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927722C1DED67AD0062C1BD /* SAPAdditionalInformation.m */; };
+		7927728C1DED67AE0062C1BD /* SAPArrayOfExcursionCatagoryDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927722E1DED67AD0062C1BD /* SAPArrayOfExcursionCatagoryDetails.m */; };
+		7927728D1DED67AE0062C1BD /* SAPArrayOfReportItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772301DED67AD0062C1BD /* SAPArrayOfReportItemDetail.m */; };
+		7927728E1DED67AE0062C1BD /* SAPAuthenticateOperationBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772321DED67AD0062C1BD /* SAPAuthenticateOperationBody.m */; };
+		7927728F1DED67AE0062C1BD /* SAPAuthenticateOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772341DED67AD0062C1BD /* SAPAuthenticateOperationResponse.m */; };
+		792772901DED67AE0062C1BD /* SAPAuthenticateOperationResponseBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772361DED67AD0062C1BD /* SAPAuthenticateOperationResponseBody.m */; };
+		792772911DED67AE0062C1BD /* SAPAuthenticationRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772381DED67AD0062C1BD /* SAPAuthenticationRealm.m */; };
+		792772921DED67AE0062C1BD /* SAPBookCustomExcursionOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927723A1DED67AD0062C1BD /* SAPBookCustomExcursionOperationResponse.m */; };
+		792772931DED67AE0062C1BD /* SAPBookingOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927723C1DED67AD0062C1BD /* SAPBookingOperationResponse.m */; };
+		792772941DED67AE0062C1BD /* SAPBookingStatusOperationBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927723E1DED67AD0062C1BD /* SAPBookingStatusOperationBody.m */; };
+		792772951DED67AE0062C1BD /* SAPBookingStatusOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772401DED67AD0062C1BD /* SAPBookingStatusOperationResponse.m */; };
+		792772961DED67AE0062C1BD /* SAPCancellationDetailsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772421DED67AD0062C1BD /* SAPCancellationDetailsBody.m */; };
+		792772971DED67AE0062C1BD /* SAPCancellationResponseDetailsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772441DED67AD0062C1BD /* SAPCancellationResponseDetailsBody.m */; };
+		792772981DED67AE0062C1BD /* SAPCancelOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772461DED67AD0062C1BD /* SAPCancelOperationResponse.m */; };
+		792772991DED67AE0062C1BD /* SAPCustomExcursionBookingDetailsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772481DED67AE0062C1BD /* SAPCustomExcursionBookingDetailsBody.m */; };
+		7927729A1DED67AE0062C1BD /* SAPCustomExcursionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927724A1DED67AE0062C1BD /* SAPCustomExcursionOperation.m */; };
+		7927729B1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927724C1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.m */; };
+		7927729C1DED67AE0062C1BD /* SAPExcursionBookingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927724E1DED67AE0062C1BD /* SAPExcursionBookingResponse.m */; };
+		7927729D1DED67AE0062C1BD /* SAPExcursionBookingResponseBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772501DED67AE0062C1BD /* SAPExcursionBookingResponseBody.m */; };
+		7927729E1DED67AE0062C1BD /* SAPExcursionCancellationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772521DED67AE0062C1BD /* SAPExcursionCancellationPolicy.m */; };
+		7927729F1DED67AE0062C1BD /* SAPExcursionCarPickupDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772541DED67AE0062C1BD /* SAPExcursionCarPickupDetails.m */; };
+		792772A01DED67AE0062C1BD /* SAPExcursionCatagoryDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772561DED67AE0062C1BD /* SAPExcursionCatagoryDetails.m */; };
+		792772A11DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772581DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.m */; };
+		792772A21DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927725A1DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.m */; };
+		792772A31DED67AE0062C1BD /* SAPExcursionOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927725C1DED67AE0062C1BD /* SAPExcursionOperationResponse.m */; };
+		792772A41DED67AE0062C1BD /* SAPExcursionOperationResponseBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927725E1DED67AE0062C1BD /* SAPExcursionOperationResponseBody.m */; };
+		792772A51DED67AE0062C1BD /* SAPExcursionPaxDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772601DED67AE0062C1BD /* SAPExcursionPaxDetails.m */; };
+		792772A61DED67AE0062C1BD /* SAPExcursionPricing.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772621DED67AE0062C1BD /* SAPExcursionPricing.m */; };
+		792772A71DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772641DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.m */; };
+		792772A81DED67AE0062C1BD /* SAPExcursionTermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772661DED67AE0062C1BD /* SAPExcursionTermsAndConditions.m */; };
+		792772A91DED67AE0062C1BD /* SAPExcursionVarriationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772681DED67AE0062C1BD /* SAPExcursionVarriationDetails.m */; };
+		792772AA1DED67AE0062C1BD /* SAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927726A1DED67AE0062C1BD /* SAPHelper.m */; };
+		792772AB1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927726C1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.m */; };
+		792772AC1DED67AE0062C1BD /* SAPOperationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927726E1DED67AE0062C1BD /* SAPOperationError.m */; };
+		792772AD1DED67AE0062C1BD /* SAPOperationRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772701DED67AE0062C1BD /* SAPOperationRealm.m */; };
+		792772AE1DED67AE0062C1BD /* SAPPromoDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772721DED67AE0062C1BD /* SAPPromoDetails.m */; };
+		792772AF1DED67AE0062C1BD /* SAPQueryExcursionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772741DED67AE0062C1BD /* SAPQueryExcursionOperation.m */; };
+		792772B01DED67AE0062C1BD /* SAPQueryExcursionOperationBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772761DED67AE0062C1BD /* SAPQueryExcursionOperationBody.m */; };
+		792772B11DED67AE0062C1BD /* SAPReportItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772781DED67AE0062C1BD /* SAPReportItemDetail.m */; };
+		792772B21DED67AE0062C1BD /* SAPReportOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927727A1DED67AE0062C1BD /* SAPReportOperationResponse.m */; };
+		792772B31DED67AE0062C1BD /* SAPReportOperationResponseBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927727C1DED67AE0062C1BD /* SAPReportOperationResponseBody.m */; };
+		792772B41DED67AE0062C1BD /* SAPReportQueryOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927727E1DED67AE0062C1BD /* SAPReportQueryOperation.m */; };
+		792772B51DED67AE0062C1BD /* SAPReportRequestOperationBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772801DED67AE0062C1BD /* SAPReportRequestOperationBody.m */; };
+		792772B61DED67AE0062C1BD /* SAPReportResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772821DED67AE0062C1BD /* SAPReportResponse.m */; };
+		792772B71DED67AE0062C1BD /* SAPRequestResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772841DED67AE0062C1BD /* SAPRequestResultHandler.m */; };
+		792772B81DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772861DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.m */; };
+		792772B91DED67AE0062C1BD /* SAPSearchOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772881DED67AE0062C1BD /* SAPSearchOperationResponse.m */; };
+		792772BA1DED67AE0062C1BD /* SAPSoapError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927728A1DED67AE0062C1BD /* SAPSoapError.m */; };
+		792772CA1DED67D50062C1BD /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772BD1DED67D50062C1BD /* DDXMLElementAdditions.m */; };
+		792772CB1DED67D50062C1BD /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772C01DED67D50062C1BD /* NSString+DDXML.m */; };
+		792772CC1DED67D50062C1BD /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772C31DED67D50062C1BD /* DDXMLDocument.m */; };
+		792772CD1DED67D50062C1BD /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772C51DED67D50062C1BD /* DDXMLElement.m */; };
+		792772CE1DED67D50062C1BD /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772C71DED67D50062C1BD /* DDXMLNode.m */; };
+		792772D21DF5AE090062C1BD /* RegularTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772D11DF5AE080062C1BD /* RegularTicketsViewController.m */; };
+		792772D51DF5B1650062C1BD /* BookTicketsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772D41DF5B1650062C1BD /* BookTicketsMainViewController.m */; };
+		792772D81DF5BB710062C1BD /* RegularTicketsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772D71DF5BB710062C1BD /* RegularTicketsTableViewCell.m */; };
+		792772DB1DF6CFB20062C1BD /* BookingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792772DA1DF6CFB20062C1BD /* BookingDetailsViewController.m */; };
+		792E00C01E07BBE300E70344 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E00BF1E07BBE300E70344 /* ForgotPasswordViewController.m */; };
+		798190D51E2E013600647C58 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 798190D41E2E013500647C58 /* UIImage+animatedGIF.m */; };
+		79888F4B1DD1AED20021130E /* LoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79888F4A1DD1AED20021130E /* LoginRegister.storyboard */; };
+		79888F4F1DD1DB5B0021130E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79888F4E1DD1DB5B0021130E /* LoginViewController.m */; };
+		79888F521DD1DB6B0021130E /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79888F511DD1DB6B0021130E /* SignUpViewController.m */; };
+		79888F581DD307C30021130E /* MenuLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79888F571DD307C30021130E /* MenuLauncherViewController.m */; };
+		79888F5E1DD9C79D0021130E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79888F5D1DD9C79D0021130E /* AudioToolbox.framework */; };
+		79888F691DD9CB540021130E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 79888F681DD9CB540021130E /* Reachability.m */; };
+		79888F711DDAF8F80021130E /* BookTickets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79888F701DDAF8F80021130E /* BookTickets.storyboard */; };
+		79A99DFA1E0E56C500F9F747 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A99DF91E0E56C500F9F747 /* CoreLocation.framework */; };
+		79D5A6721E0276660023F10D /* BarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D5A6711E0276660023F10D /* BarcodeViewController.m */; };
+		79D5A6751E027B6D0023F10D /* EventsOffersPromotionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D5A6741E027B6D0023F10D /* EventsOffersPromotionsViewController.m */; };
+		79D5A6781E027E7D0023F10D /* EventsChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D5A6771E027E7D0023F10D /* EventsChildViewController.m */; };
+		79E57F641E459F930043AC33 /* GuideMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E57F631E459F930043AC33 /* GuideMapViewController.m */; };
+		79E57F661E45B02C0043AC33 /* splash_screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 79E57F651E45B02C0043AC33 /* splash_screen.gif */; };
+		79E57F691E45B05D0043AC33 /* GifAnimatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E57F681E45B05D0043AC33 /* GifAnimatingViewController.m */; };
+		79E57F6B1E45B18E0043AC33 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E57F6A1E45B18E0043AC33 /* ImageIO.framework */; };
+		79F5D89A1DF7F27C00B857C4 /* CCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8991DF7F27C00B857C4 /* CCTool.m */; };
+		79F5D89D1DF7F29300B857C4 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D89C1DF7F29300B857C4 /* Base64.m */; };
+		79F5D8A41DF8133E00B857C4 /* PaymentGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8A31DF8133E00B857C4 /* PaymentGatewayViewController.m */; };
+		79F5D8A91DF8579D00B857C4 /* DrawerOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F5D8A81DF8579D00B857C4 /* DrawerOptions.storyboard */; };
+		79F5D8AD1DF85B9F00B857C4 /* EntryRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8AC1DF85B9F00B857C4 /* EntryRatesViewController.m */; };
+		79F5D8B01DF85BB900B857C4 /* EntryRatesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8AF1DF85BB900B857C4 /* EntryRatesTableViewCell.m */; };
+		79F5D8B41DFE76E700B857C4 /* AddOnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8B31DFE76E700B857C4 /* AddOnViewController.m */; };
+		79F5D8B71DFEBFC700B857C4 /* AddOnCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8B61DFEBFC700B857C4 /* AddOnCollectionViewCell.m */; };
+		79F5D8BA1DFFD70600B857C4 /* AddOnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8B91DFFD70600B857C4 /* AddOnTableViewController.m */; };
+		79F5D8BD1DFFD71E00B857C4 /* AddOnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8BC1DFFD71E00B857C4 /* AddOnTableViewCell.m */; };
+		79F5D8C11E01773300B857C4 /* BookingHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8C01E01773300B857C4 /* BookingHistoryViewController.m */; };
+		79F5D8C41E01774F00B857C4 /* BookingHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5D8C31E01774F00B857C4 /* BookingHistoryTableViewCell.m */; };
+		79F6AB321DBF204D00BA3C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB311DBF204D00BA3C9A /* main.m */; };
+		79F6AB351DBF204D00BA3C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB341DBF204D00BA3C9A /* AppDelegate.m */; };
+		79F6AB381DBF204D00BA3C9A /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB371DBF204D00BA3C9A /* LandingViewController.m */; };
+		79F6AB3D1DBF204D00BA3C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F6AB3C1DBF204D00BA3C9A /* Assets.xcassets */; };
+		79F6AB401DBF204D00BA3C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F6AB3E1DBF204D00BA3C9A /* LaunchScreen.storyboard */; };
+		79F6AB641DBF2F8200BA3C9A /* Oswald-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79F6AB631DBF2F8200BA3C9A /* Oswald-Light.otf */; };
+		79F6AB661DBF30A200BA3C9A /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79F6AB651DBF30A200BA3C9A /* Oswald-Regular.ttf */; };
+		79F6AB6A1DBF3D7900BA3C9A /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB691DBF3D7900BA3C9A /* SwipeView.m */; };
+		79F6AB6D1DBF3EBD00BA3C9A /* LandingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB6C1DBF3EBD00BA3C9A /* LandingDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030AF7FC1EA9C9D300A04BAB /* Landing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		030AF7FE1EA9CA2A00A04BAB /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		030AF7FF1EA9CA2A00A04BAB /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		2B214D0C207F451500D945F9 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = SOURCE_ROOT; };
+		2B96B7E6207F61720015B149 /* NEWSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEWSplashScreen.png; sourceTree = "<group>"; };
+		3377E9126A4028875EFEF142 /* Pods-Essel WorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel WorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Essel WorldTests/Pods-Essel WorldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33BE9AAAF8A0E7D0E82C8DB0 /* Pods-Essel World.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel World.release.xcconfig"; path = "Pods/Target Support Files/Pods-Essel World/Pods-Essel World.release.xcconfig"; sourceTree = "<group>"; };
+		4130C9D62064E1EF002D80C1 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Certificates/libcrypto.a; sourceTree = "<group>"; };
+		4130C9D72064E1F0002D80C1 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Certificates/libssl.a; sourceTree = "<group>"; };
+		4130C9DC2064E5AC002D80C1 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = SOURCE_ROOT; };
+		4130C9E32064EA60002D80C1 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = SOURCE_ROOT; };
+		4136C946206A53D3005C3A93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A5D31FD1EA79F3100D14E3A /* ViewMoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMoreVC.h; sourceTree = "<group>"; };
+		4A5D31FE1EA79F3100D14E3A /* ViewMoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMoreVC.m; sourceTree = "<group>"; };
+		5CCA2AE487085E72C9D7FE2E /* Pods-Essel WorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel WorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Essel WorldTests/Pods-Essel WorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		69D0E364DEB21ADD70260790 /* Pods-Essel WorldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel WorldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Essel WorldUITests/Pods-Essel WorldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		792771F21DDDD3E00062C1BD /* BookingTicketsFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingTicketsFirstViewController.h; sourceTree = "<group>"; };
+		792771F31DDDD3E00062C1BD /* BookingTicketsFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingTicketsFirstViewController.m; sourceTree = "<group>"; };
+		792771F71DE011500062C1BD /* EsselWorld.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsselWorld.pch; sourceTree = "<group>"; };
+		792771F81DE012880062C1BD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		792771FF1DE3255B0062C1BD /* RidesFoodOther.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RidesFoodOther.storyboard; sourceTree = "<group>"; };
+		792772011DE325EE0062C1BD /* OtherAttractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAttractionViewController.h; sourceTree = "<group>"; };
+		792772021DE325EE0062C1BD /* OtherAttractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherAttractionViewController.m; sourceTree = "<group>"; };
+		792772051DE326600062C1BD /* OtherAttractionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAttractionCollectionViewCell.h; sourceTree = "<group>"; };
+		792772061DE326600062C1BD /* OtherAttractionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherAttractionCollectionViewCell.m; sourceTree = "<group>"; };
+		7927720B1DE407DF0062C1BD /* Rides-OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rides-OtherViewController.h"; sourceTree = "<group>"; };
+		7927720C1DE407DF0062C1BD /* Rides-OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Rides-OtherViewController.m"; sourceTree = "<group>"; };
+		7927720F1DE412760062C1BD /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RidesViewController.h; sourceTree = "<group>"; };
+		792772101DE412760062C1BD /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidesViewController.m; sourceTree = "<group>"; };
+		792772121DE412870062C1BD /* RidesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RidesCollectionViewController.h; sourceTree = "<group>"; };
+		792772131DE412870062C1BD /* RidesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidesCollectionViewController.m; sourceTree = "<group>"; };
+		792772161DE433340062C1BD /* FoodAndBeveragesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodAndBeveragesViewController.h; sourceTree = "<group>"; };
+		792772171DE433340062C1BD /* FoodAndBeveragesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodAndBeveragesViewController.m; sourceTree = "<group>"; };
+		792772191DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodAndBeveragesCollectionViewCell.h; sourceTree = "<group>"; };
+		7927721A1DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodAndBeveragesCollectionViewCell.m; sourceTree = "<group>"; };
+		7927721C1DE452490062C1BD /* LocationParkGuide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LocationParkGuide.storyboard; sourceTree = "<group>"; };
+		7927721F1DE458E60062C1BD /* ParkingTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingTimingViewController.h; sourceTree = "<group>"; };
+		792772201DE458E60062C1BD /* ParkingTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingTimingViewController.m; sourceTree = "<group>"; };
+		792772221DE458FA0062C1BD /* ParkingTimingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingTimingTableViewCell.h; sourceTree = "<group>"; };
+		792772231DE458FA0062C1BD /* ParkingTimingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingTimingTableViewCell.m; sourceTree = "<group>"; };
+		792772251DE46AB80062C1BD /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		792772261DE46AB80062C1BD /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		7927722B1DED67AD0062C1BD /* SAPAdditionalInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPAdditionalInformation.h; sourceTree = "<group>"; };
+		7927722C1DED67AD0062C1BD /* SAPAdditionalInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPAdditionalInformation.m; sourceTree = "<group>"; };
+		7927722D1DED67AD0062C1BD /* SAPArrayOfExcursionCatagoryDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPArrayOfExcursionCatagoryDetails.h; sourceTree = "<group>"; };
+		7927722E1DED67AD0062C1BD /* SAPArrayOfExcursionCatagoryDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPArrayOfExcursionCatagoryDetails.m; sourceTree = "<group>"; };
+		7927722F1DED67AD0062C1BD /* SAPArrayOfReportItemDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPArrayOfReportItemDetail.h; sourceTree = "<group>"; };
+		792772301DED67AD0062C1BD /* SAPArrayOfReportItemDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPArrayOfReportItemDetail.m; sourceTree = "<group>"; };
+		792772311DED67AD0062C1BD /* SAPAuthenticateOperationBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPAuthenticateOperationBody.h; sourceTree = "<group>"; };
+		792772321DED67AD0062C1BD /* SAPAuthenticateOperationBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPAuthenticateOperationBody.m; sourceTree = "<group>"; };
+		792772331DED67AD0062C1BD /* SAPAuthenticateOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPAuthenticateOperationResponse.h; sourceTree = "<group>"; };
+		792772341DED67AD0062C1BD /* SAPAuthenticateOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPAuthenticateOperationResponse.m; sourceTree = "<group>"; };
+		792772351DED67AD0062C1BD /* SAPAuthenticateOperationResponseBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPAuthenticateOperationResponseBody.h; sourceTree = "<group>"; };
+		792772361DED67AD0062C1BD /* SAPAuthenticateOperationResponseBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPAuthenticateOperationResponseBody.m; sourceTree = "<group>"; };
+		792772371DED67AD0062C1BD /* SAPAuthenticationRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPAuthenticationRealm.h; sourceTree = "<group>"; };
+		792772381DED67AD0062C1BD /* SAPAuthenticationRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPAuthenticationRealm.m; sourceTree = "<group>"; };
+		792772391DED67AD0062C1BD /* SAPBookCustomExcursionOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPBookCustomExcursionOperationResponse.h; sourceTree = "<group>"; };
+		7927723A1DED67AD0062C1BD /* SAPBookCustomExcursionOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPBookCustomExcursionOperationResponse.m; sourceTree = "<group>"; };
+		7927723B1DED67AD0062C1BD /* SAPBookingOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPBookingOperationResponse.h; sourceTree = "<group>"; };
+		7927723C1DED67AD0062C1BD /* SAPBookingOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPBookingOperationResponse.m; sourceTree = "<group>"; };
+		7927723D1DED67AD0062C1BD /* SAPBookingStatusOperationBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPBookingStatusOperationBody.h; sourceTree = "<group>"; };
+		7927723E1DED67AD0062C1BD /* SAPBookingStatusOperationBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPBookingStatusOperationBody.m; sourceTree = "<group>"; };
+		7927723F1DED67AD0062C1BD /* SAPBookingStatusOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPBookingStatusOperationResponse.h; sourceTree = "<group>"; };
+		792772401DED67AD0062C1BD /* SAPBookingStatusOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPBookingStatusOperationResponse.m; sourceTree = "<group>"; };
+		792772411DED67AD0062C1BD /* SAPCancellationDetailsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCancellationDetailsBody.h; sourceTree = "<group>"; };
+		792772421DED67AD0062C1BD /* SAPCancellationDetailsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCancellationDetailsBody.m; sourceTree = "<group>"; };
+		792772431DED67AD0062C1BD /* SAPCancellationResponseDetailsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCancellationResponseDetailsBody.h; sourceTree = "<group>"; };
+		792772441DED67AD0062C1BD /* SAPCancellationResponseDetailsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCancellationResponseDetailsBody.m; sourceTree = "<group>"; };
+		792772451DED67AD0062C1BD /* SAPCancelOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCancelOperationResponse.h; sourceTree = "<group>"; };
+		792772461DED67AD0062C1BD /* SAPCancelOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCancelOperationResponse.m; sourceTree = "<group>"; };
+		792772471DED67AD0062C1BD /* SAPCustomExcursionBookingDetailsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCustomExcursionBookingDetailsBody.h; sourceTree = "<group>"; };
+		792772481DED67AE0062C1BD /* SAPCustomExcursionBookingDetailsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCustomExcursionBookingDetailsBody.m; sourceTree = "<group>"; };
+		792772491DED67AE0062C1BD /* SAPCustomExcursionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCustomExcursionOperation.h; sourceTree = "<group>"; };
+		7927724A1DED67AE0062C1BD /* SAPCustomExcursionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCustomExcursionOperation.m; sourceTree = "<group>"; };
+		7927724B1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCustomExcursionOperationBody.h; sourceTree = "<group>"; };
+		7927724C1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCustomExcursionOperationBody.m; sourceTree = "<group>"; };
+		7927724D1DED67AE0062C1BD /* SAPExcursionBookingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionBookingResponse.h; sourceTree = "<group>"; };
+		7927724E1DED67AE0062C1BD /* SAPExcursionBookingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionBookingResponse.m; sourceTree = "<group>"; };
+		7927724F1DED67AE0062C1BD /* SAPExcursionBookingResponseBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionBookingResponseBody.h; sourceTree = "<group>"; };
+		792772501DED67AE0062C1BD /* SAPExcursionBookingResponseBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionBookingResponseBody.m; sourceTree = "<group>"; };
+		792772511DED67AE0062C1BD /* SAPExcursionCancellationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionCancellationPolicy.h; sourceTree = "<group>"; };
+		792772521DED67AE0062C1BD /* SAPExcursionCancellationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionCancellationPolicy.m; sourceTree = "<group>"; };
+		792772531DED67AE0062C1BD /* SAPExcursionCarPickupDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionCarPickupDetails.h; sourceTree = "<group>"; };
+		792772541DED67AE0062C1BD /* SAPExcursionCarPickupDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionCarPickupDetails.m; sourceTree = "<group>"; };
+		792772551DED67AE0062C1BD /* SAPExcursionCatagoryDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionCatagoryDetails.h; sourceTree = "<group>"; };
+		792772561DED67AE0062C1BD /* SAPExcursionCatagoryDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionCatagoryDetails.m; sourceTree = "<group>"; };
+		792772571DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionCatagoryDetailsBody.h; sourceTree = "<group>"; };
+		792772581DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionCatagoryDetailsBody.m; sourceTree = "<group>"; };
+		792772591DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionConfirmBookingDetailsBody.h; sourceTree = "<group>"; };
+		7927725A1DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionConfirmBookingDetailsBody.m; sourceTree = "<group>"; };
+		7927725B1DED67AE0062C1BD /* SAPExcursionOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionOperationResponse.h; sourceTree = "<group>"; };
+		7927725C1DED67AE0062C1BD /* SAPExcursionOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionOperationResponse.m; sourceTree = "<group>"; };
+		7927725D1DED67AE0062C1BD /* SAPExcursionOperationResponseBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionOperationResponseBody.h; sourceTree = "<group>"; };
+		7927725E1DED67AE0062C1BD /* SAPExcursionOperationResponseBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionOperationResponseBody.m; sourceTree = "<group>"; };
+		7927725F1DED67AE0062C1BD /* SAPExcursionPaxDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionPaxDetails.h; sourceTree = "<group>"; };
+		792772601DED67AE0062C1BD /* SAPExcursionPaxDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionPaxDetails.m; sourceTree = "<group>"; };
+		792772611DED67AE0062C1BD /* SAPExcursionPricing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionPricing.h; sourceTree = "<group>"; };
+		792772621DED67AE0062C1BD /* SAPExcursionPricing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionPricing.m; sourceTree = "<group>"; };
+		792772631DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPexcursionSOAPSoapBinding.h; sourceTree = "<group>"; };
+		792772641DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPexcursionSOAPSoapBinding.m; sourceTree = "<group>"; };
+		792772651DED67AE0062C1BD /* SAPExcursionTermsAndConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionTermsAndConditions.h; sourceTree = "<group>"; };
+		792772661DED67AE0062C1BD /* SAPExcursionTermsAndConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionTermsAndConditions.m; sourceTree = "<group>"; };
+		792772671DED67AE0062C1BD /* SAPExcursionVarriationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExcursionVarriationDetails.h; sourceTree = "<group>"; };
+		792772681DED67AE0062C1BD /* SAPExcursionVarriationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPExcursionVarriationDetails.m; sourceTree = "<group>"; };
+		792772691DED67AE0062C1BD /* SAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPHelper.h; sourceTree = "<group>"; };
+		7927726A1DED67AE0062C1BD /* SAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPHelper.m; sourceTree = "<group>"; };
+		7927726B1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPMiscellaneousCategoryInfo.h; sourceTree = "<group>"; };
+		7927726C1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPMiscellaneousCategoryInfo.m; sourceTree = "<group>"; };
+		7927726D1DED67AE0062C1BD /* SAPOperationError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPOperationError.h; sourceTree = "<group>"; };
+		7927726E1DED67AE0062C1BD /* SAPOperationError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPOperationError.m; sourceTree = "<group>"; };
+		7927726F1DED67AE0062C1BD /* SAPOperationRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPOperationRealm.h; sourceTree = "<group>"; };
+		792772701DED67AE0062C1BD /* SAPOperationRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPOperationRealm.m; sourceTree = "<group>"; };
+		792772711DED67AE0062C1BD /* SAPPromoDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPPromoDetails.h; sourceTree = "<group>"; };
+		792772721DED67AE0062C1BD /* SAPPromoDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPPromoDetails.m; sourceTree = "<group>"; };
+		792772731DED67AE0062C1BD /* SAPQueryExcursionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPQueryExcursionOperation.h; sourceTree = "<group>"; };
+		792772741DED67AE0062C1BD /* SAPQueryExcursionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPQueryExcursionOperation.m; sourceTree = "<group>"; };
+		792772751DED67AE0062C1BD /* SAPQueryExcursionOperationBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPQueryExcursionOperationBody.h; sourceTree = "<group>"; };
+		792772761DED67AE0062C1BD /* SAPQueryExcursionOperationBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPQueryExcursionOperationBody.m; sourceTree = "<group>"; };
+		792772771DED67AE0062C1BD /* SAPReportItemDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportItemDetail.h; sourceTree = "<group>"; };
+		792772781DED67AE0062C1BD /* SAPReportItemDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportItemDetail.m; sourceTree = "<group>"; };
+		792772791DED67AE0062C1BD /* SAPReportOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportOperationResponse.h; sourceTree = "<group>"; };
+		7927727A1DED67AE0062C1BD /* SAPReportOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportOperationResponse.m; sourceTree = "<group>"; };
+		7927727B1DED67AE0062C1BD /* SAPReportOperationResponseBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportOperationResponseBody.h; sourceTree = "<group>"; };
+		7927727C1DED67AE0062C1BD /* SAPReportOperationResponseBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportOperationResponseBody.m; sourceTree = "<group>"; };
+		7927727D1DED67AE0062C1BD /* SAPReportQueryOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportQueryOperation.h; sourceTree = "<group>"; };
+		7927727E1DED67AE0062C1BD /* SAPReportQueryOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportQueryOperation.m; sourceTree = "<group>"; };
+		7927727F1DED67AE0062C1BD /* SAPReportRequestOperationBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportRequestOperationBody.h; sourceTree = "<group>"; };
+		792772801DED67AE0062C1BD /* SAPReportRequestOperationBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportRequestOperationBody.m; sourceTree = "<group>"; };
+		792772811DED67AE0062C1BD /* SAPReportResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPReportResponse.h; sourceTree = "<group>"; };
+		792772821DED67AE0062C1BD /* SAPReportResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPReportResponse.m; sourceTree = "<group>"; };
+		792772831DED67AE0062C1BD /* SAPRequestResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPRequestResultHandler.h; sourceTree = "<group>"; };
+		792772841DED67AE0062C1BD /* SAPRequestResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPRequestResultHandler.m; sourceTree = "<group>"; };
+		792772851DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPSearchCustomExcursionOperationResponse.h; sourceTree = "<group>"; };
+		792772861DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPSearchCustomExcursionOperationResponse.m; sourceTree = "<group>"; };
+		792772871DED67AE0062C1BD /* SAPSearchOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPSearchOperationResponse.h; sourceTree = "<group>"; };
+		792772881DED67AE0062C1BD /* SAPSearchOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPSearchOperationResponse.m; sourceTree = "<group>"; };
+		792772891DED67AE0062C1BD /* SAPSoapError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPSoapError.h; sourceTree = "<group>"; };
+		7927728A1DED67AE0062C1BD /* SAPSoapError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPSoapError.m; sourceTree = "<group>"; };
+		792772BC1DED67D50062C1BD /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		792772BD1DED67D50062C1BD /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		792772BF1DED67D50062C1BD /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		792772C01DED67D50062C1BD /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		792772C11DED67D50062C1BD /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		792772C21DED67D50062C1BD /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		792772C31DED67D50062C1BD /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		792772C41DED67D50062C1BD /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		792772C51DED67D50062C1BD /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		792772C61DED67D50062C1BD /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		792772C71DED67D50062C1BD /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		792772C91DED67D50062C1BD /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		792772D01DF5AE080062C1BD /* RegularTicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularTicketsViewController.h; sourceTree = "<group>"; };
+		792772D11DF5AE080062C1BD /* RegularTicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularTicketsViewController.m; sourceTree = "<group>"; };
+		792772D31DF5B1650062C1BD /* BookTicketsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTicketsMainViewController.h; sourceTree = "<group>"; };
+		792772D41DF5B1650062C1BD /* BookTicketsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTicketsMainViewController.m; sourceTree = "<group>"; };
+		792772D61DF5BB710062C1BD /* RegularTicketsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularTicketsTableViewCell.h; sourceTree = "<group>"; };
+		792772D71DF5BB710062C1BD /* RegularTicketsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularTicketsTableViewCell.m; sourceTree = "<group>"; };
+		792772D91DF6CFB20062C1BD /* BookingDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingDetailsViewController.h; sourceTree = "<group>"; };
+		792772DA1DF6CFB20062C1BD /* BookingDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingDetailsViewController.m; sourceTree = "<group>"; };
+		792E00BE1E07BBE300E70344 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		792E00BF1E07BBE300E70344 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		7970FF9D1E235DE400B93507 /* Essel World.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Essel World.entitlements"; sourceTree = "<group>"; };
+		798190D31E2E013500647C58 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		798190D41E2E013500647C58 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		79888F4A1DD1AED20021130E /* LoginRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginRegister.storyboard; sourceTree = "<group>"; };
+		79888F4D1DD1DB5B0021130E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		79888F4E1DD1DB5B0021130E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		79888F501DD1DB6B0021130E /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		79888F511DD1DB6B0021130E /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		79888F561DD307C30021130E /* MenuLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLauncherViewController.h; sourceTree = "<group>"; };
+		79888F571DD307C30021130E /* MenuLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLauncherViewController.m; sourceTree = "<group>"; };
+		79888F5D1DD9C79D0021130E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79888F671DD9CB530021130E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		79888F681DD9CB540021130E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		79888F701DDAF8F80021130E /* BookTickets.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BookTickets.storyboard; sourceTree = "<group>"; };
+		79A99DF91E0E56C500F9F747 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79D5A6701E0276660023F10D /* BarcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeViewController.h; sourceTree = "<group>"; };
+		79D5A6711E0276660023F10D /* BarcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeViewController.m; sourceTree = "<group>"; };
+		79D5A6731E027B6D0023F10D /* EventsOffersPromotionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsOffersPromotionsViewController.h; sourceTree = "<group>"; };
+		79D5A6741E027B6D0023F10D /* EventsOffersPromotionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsOffersPromotionsViewController.m; sourceTree = "<group>"; };
+		79D5A6761E027E7D0023F10D /* EventsChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsChildViewController.h; sourceTree = "<group>"; };
+		79D5A6771E027E7D0023F10D /* EventsChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsChildViewController.m; sourceTree = "<group>"; };
+		79E57F621E459F930043AC33 /* GuideMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideMapViewController.h; sourceTree = "<group>"; };
+		79E57F631E459F930043AC33 /* GuideMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideMapViewController.m; sourceTree = "<group>"; };
+		79E57F651E45B02C0043AC33 /* splash_screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash_screen.gif; sourceTree = "<group>"; };
+		79E57F671E45B05D0043AC33 /* GifAnimatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifAnimatingViewController.h; sourceTree = "<group>"; };
+		79E57F681E45B05D0043AC33 /* GifAnimatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifAnimatingViewController.m; sourceTree = "<group>"; };
+		79E57F6A1E45B18E0043AC33 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		79F5D8981DF7F27C00B857C4 /* CCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTool.h; sourceTree = "<group>"; };
+		79F5D8991DF7F27C00B857C4 /* CCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTool.m; sourceTree = "<group>"; };
+		79F5D89B1DF7F29300B857C4 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		79F5D89C1DF7F29300B857C4 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		79F5D8A21DF8133E00B857C4 /* PaymentGatewayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewayViewController.h; sourceTree = "<group>"; };
+		79F5D8A31DF8133E00B857C4 /* PaymentGatewayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGatewayViewController.m; sourceTree = "<group>"; };
+		79F5D8A81DF8579D00B857C4 /* DrawerOptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawerOptions.storyboard; sourceTree = "<group>"; };
+		79F5D8AB1DF85B9F00B857C4 /* EntryRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryRatesViewController.h; sourceTree = "<group>"; };
+		79F5D8AC1DF85B9F00B857C4 /* EntryRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryRatesViewController.m; sourceTree = "<group>"; };
+		79F5D8AE1DF85BB900B857C4 /* EntryRatesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryRatesTableViewCell.h; sourceTree = "<group>"; };
+		79F5D8AF1DF85BB900B857C4 /* EntryRatesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryRatesTableViewCell.m; sourceTree = "<group>"; };
+		79F5D8B21DFE76E700B857C4 /* AddOnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOnViewController.h; sourceTree = "<group>"; };
+		79F5D8B31DFE76E700B857C4 /* AddOnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOnViewController.m; sourceTree = "<group>"; };
+		79F5D8B51DFEBFC700B857C4 /* AddOnCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOnCollectionViewCell.h; sourceTree = "<group>"; };
+		79F5D8B61DFEBFC700B857C4 /* AddOnCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOnCollectionViewCell.m; sourceTree = "<group>"; };
+		79F5D8B81DFFD70600B857C4 /* AddOnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOnTableViewController.h; sourceTree = "<group>"; };
+		79F5D8B91DFFD70600B857C4 /* AddOnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOnTableViewController.m; sourceTree = "<group>"; };
+		79F5D8BB1DFFD71E00B857C4 /* AddOnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOnTableViewCell.h; sourceTree = "<group>"; };
+		79F5D8BC1DFFD71E00B857C4 /* AddOnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOnTableViewCell.m; sourceTree = "<group>"; };
+		79F5D8BF1E01773300B857C4 /* BookingHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingHistoryViewController.h; sourceTree = "<group>"; };
+		79F5D8C01E01773300B857C4 /* BookingHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingHistoryViewController.m; sourceTree = "<group>"; };
+		79F5D8C21E01774F00B857C4 /* BookingHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingHistoryTableViewCell.h; sourceTree = "<group>"; };
+		79F5D8C31E01774F00B857C4 /* BookingHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingHistoryTableViewCell.m; sourceTree = "<group>"; };
+		79F6AB2D1DBF204D00BA3C9A /* Essel World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Essel World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F6AB311DBF204D00BA3C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F6AB331DBF204D00BA3C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79F6AB341DBF204D00BA3C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79F6AB361DBF204D00BA3C9A /* LandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		79F6AB371DBF204D00BA3C9A /* LandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		79F6AB3C1DBF204D00BA3C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F6AB3F1DBF204D00BA3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79F6AB411DBF204D00BA3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F6AB4A1DBF204D00BA3C9A /* Essel_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Essel_WorldTests.m; sourceTree = "<group>"; };
+		79F6AB4C1DBF204D00BA3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F6AB551DBF204D00BA3C9A /* Essel_WorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Essel_WorldUITests.m; sourceTree = "<group>"; };
+		79F6AB571DBF204D00BA3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F6AB631DBF2F8200BA3C9A /* Oswald-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.otf"; sourceTree = "<group>"; };
+		79F6AB651DBF30A200BA3C9A /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		79F6AB681DBF3D7900BA3C9A /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		79F6AB691DBF3D7900BA3C9A /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		79F6AB6B1DBF3EBD00BA3C9A /* LandingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingDetailViewController.h; sourceTree = "<group>"; };
+		79F6AB6C1DBF3EBD00BA3C9A /* LandingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingDetailViewController.m; sourceTree = "<group>"; };
+		8172F4B876AD08DAD276B0B0 /* libPods-Essel World.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Essel World.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1844BC370C697DCA1AE554 /* Pods-Essel WorldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel WorldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Essel WorldUITests/Pods-Essel WorldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D745B2368C833BA1970EB7F5 /* Pods-Essel World.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Essel World.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Essel World/Pods-Essel World.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F6AB2A1DBF204D00BA3C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4130C9DA2064E22F002D80C1 /* libcrypto.a in Frameworks */,
+				4130C9DB2064E22F002D80C1 /* libssl.a in Frameworks */,
+				79E57F6B1E45B18E0043AC33 /* ImageIO.framework in Frameworks */,
+				79A99DFA1E0E56C500F9F747 /* CoreLocation.framework in Frameworks */,
+				79888F5E1DD9C79D0021130E /* AudioToolbox.framework in Frameworks */,
+				1FEC012DC388778F0DCE2E0A /* libPods-Essel World.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F93582F4E473B18B7FD720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D745B2368C833BA1970EB7F5 /* Pods-Essel World.debug.xcconfig */,
+				33BE9AAAF8A0E7D0E82C8DB0 /* Pods-Essel World.release.xcconfig */,
+				3377E9126A4028875EFEF142 /* Pods-Essel WorldTests.debug.xcconfig */,
+				5CCA2AE487085E72C9D7FE2E /* Pods-Essel WorldTests.release.xcconfig */,
+				69D0E364DEB21ADD70260790 /* Pods-Essel WorldUITests.debug.xcconfig */,
+				9A1844BC370C697DCA1AE554 /* Pods-Essel WorldUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		792771FD1DE3248D0062C1BD /* Rides/Food/Other Attraction */ = {
+			isa = PBXGroup;
+			children = (
+				792771FF1DE3255B0062C1BD /* RidesFoodOther.storyboard */,
+				7927720B1DE407DF0062C1BD /* Rides-OtherViewController.h */,
+				7927720C1DE407DF0062C1BD /* Rides-OtherViewController.m */,
+				7927720E1DE412410062C1BD /* Rides */,
+				792772041DE326340062C1BD /* OtherAttraction */,
+				792772151DE4330D0062C1BD /* Foods & Beverages */,
+			);
+			name = "Rides/Food/Other Attraction";
+			sourceTree = "<group>";
+		};
+		792771FE1DE325340062C1BD /* Location/Park/Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7927721C1DE452490062C1BD /* LocationParkGuide.storyboard */,
+				7927721E1DE458BD0062C1BD /* Park Timing */,
+			);
+			name = Location/Park/Guide;
+			sourceTree = "<group>";
+		};
+		792772041DE326340062C1BD /* OtherAttraction */ = {
+			isa = PBXGroup;
+			children = (
+				792772011DE325EE0062C1BD /* OtherAttractionViewController.h */,
+				792772021DE325EE0062C1BD /* OtherAttractionViewController.m */,
+				792772051DE326600062C1BD /* OtherAttractionCollectionViewCell.h */,
+				792772061DE326600062C1BD /* OtherAttractionCollectionViewCell.m */,
+			);
+			name = OtherAttraction;
+			sourceTree = "<group>";
+		};
+		7927720E1DE412410062C1BD /* Rides */ = {
+			isa = PBXGroup;
+			children = (
+				7927720F1DE412760062C1BD /* RidesViewController.h */,
+				792772101DE412760062C1BD /* RidesViewController.m */,
+				792772121DE412870062C1BD /* RidesCollectionViewController.h */,
+				792772131DE412870062C1BD /* RidesCollectionViewController.m */,
+			);
+			name = Rides;
+			sourceTree = "<group>";
+		};
+		792772151DE4330D0062C1BD /* Foods & Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				792772161DE433340062C1BD /* FoodAndBeveragesViewController.h */,
+				792772171DE433340062C1BD /* FoodAndBeveragesViewController.m */,
+				792772191DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.h */,
+				7927721A1DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.m */,
+			);
+			name = "Foods & Beverages";
+			sourceTree = "<group>";
+		};
+		7927721E1DE458BD0062C1BD /* Park Timing */ = {
+			isa = PBXGroup;
+			children = (
+				7927721F1DE458E60062C1BD /* ParkingTimingViewController.h */,
+				792772201DE458E60062C1BD /* ParkingTimingViewController.m */,
+				792772221DE458FA0062C1BD /* ParkingTimingTableViewCell.h */,
+				792772231DE458FA0062C1BD /* ParkingTimingTableViewCell.m */,
+			);
+			name = "Park Timing";
+			sourceTree = "<group>";
+		};
+		792772281DED67810062C1BD /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				7927722A1DED679A0062C1BD /* SoapHelperFiles */,
+				792772291DED678D0062C1BD /* KissXML */,
+			);
+			name = Soap;
+			sourceTree = "<group>";
+		};
+		792772291DED678D0062C1BD /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				792772BB1DED67D50062C1BD /* Additions */,
+				792772BE1DED67D50062C1BD /* Categories */,
+				792772C11DED67D50062C1BD /* DDXML.h */,
+				792772C21DED67D50062C1BD /* DDXMLDocument.h */,
+				792772C31DED67D50062C1BD /* DDXMLDocument.m */,
+				792772C41DED67D50062C1BD /* DDXMLElement.h */,
+				792772C51DED67D50062C1BD /* DDXMLElement.m */,
+				792772C61DED67D50062C1BD /* DDXMLNode.h */,
+				792772C71DED67D50062C1BD /* DDXMLNode.m */,
+				792772C81DED67D50062C1BD /* Private */,
+			);
+			name = KissXML;
+			sourceTree = "<group>";
+		};
+		7927722A1DED679A0062C1BD /* SoapHelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7927722B1DED67AD0062C1BD /* SAPAdditionalInformation.h */,
+				7927722C1DED67AD0062C1BD /* SAPAdditionalInformation.m */,
+				7927722D1DED67AD0062C1BD /* SAPArrayOfExcursionCatagoryDetails.h */,
+				7927722E1DED67AD0062C1BD /* SAPArrayOfExcursionCatagoryDetails.m */,
+				7927722F1DED67AD0062C1BD /* SAPArrayOfReportItemDetail.h */,
+				792772301DED67AD0062C1BD /* SAPArrayOfReportItemDetail.m */,
+				792772311DED67AD0062C1BD /* SAPAuthenticateOperationBody.h */,
+				792772321DED67AD0062C1BD /* SAPAuthenticateOperationBody.m */,
+				792772331DED67AD0062C1BD /* SAPAuthenticateOperationResponse.h */,
+				792772341DED67AD0062C1BD /* SAPAuthenticateOperationResponse.m */,
+				792772351DED67AD0062C1BD /* SAPAuthenticateOperationResponseBody.h */,
+				792772361DED67AD0062C1BD /* SAPAuthenticateOperationResponseBody.m */,
+				792772371DED67AD0062C1BD /* SAPAuthenticationRealm.h */,
+				792772381DED67AD0062C1BD /* SAPAuthenticationRealm.m */,
+				792772391DED67AD0062C1BD /* SAPBookCustomExcursionOperationResponse.h */,
+				7927723A1DED67AD0062C1BD /* SAPBookCustomExcursionOperationResponse.m */,
+				7927723B1DED67AD0062C1BD /* SAPBookingOperationResponse.h */,
+				7927723C1DED67AD0062C1BD /* SAPBookingOperationResponse.m */,
+				7927723D1DED67AD0062C1BD /* SAPBookingStatusOperationBody.h */,
+				7927723E1DED67AD0062C1BD /* SAPBookingStatusOperationBody.m */,
+				7927723F1DED67AD0062C1BD /* SAPBookingStatusOperationResponse.h */,
+				792772401DED67AD0062C1BD /* SAPBookingStatusOperationResponse.m */,
+				792772411DED67AD0062C1BD /* SAPCancellationDetailsBody.h */,
+				792772421DED67AD0062C1BD /* SAPCancellationDetailsBody.m */,
+				792772431DED67AD0062C1BD /* SAPCancellationResponseDetailsBody.h */,
+				792772441DED67AD0062C1BD /* SAPCancellationResponseDetailsBody.m */,
+				792772451DED67AD0062C1BD /* SAPCancelOperationResponse.h */,
+				792772461DED67AD0062C1BD /* SAPCancelOperationResponse.m */,
+				792772471DED67AD0062C1BD /* SAPCustomExcursionBookingDetailsBody.h */,
+				792772481DED67AE0062C1BD /* SAPCustomExcursionBookingDetailsBody.m */,
+				792772491DED67AE0062C1BD /* SAPCustomExcursionOperation.h */,
+				7927724A1DED67AE0062C1BD /* SAPCustomExcursionOperation.m */,
+				7927724B1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.h */,
+				7927724C1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.m */,
+				7927724D1DED67AE0062C1BD /* SAPExcursionBookingResponse.h */,
+				7927724E1DED67AE0062C1BD /* SAPExcursionBookingResponse.m */,
+				7927724F1DED67AE0062C1BD /* SAPExcursionBookingResponseBody.h */,
+				792772501DED67AE0062C1BD /* SAPExcursionBookingResponseBody.m */,
+				792772511DED67AE0062C1BD /* SAPExcursionCancellationPolicy.h */,
+				792772521DED67AE0062C1BD /* SAPExcursionCancellationPolicy.m */,
+				792772531DED67AE0062C1BD /* SAPExcursionCarPickupDetails.h */,
+				792772541DED67AE0062C1BD /* SAPExcursionCarPickupDetails.m */,
+				792772551DED67AE0062C1BD /* SAPExcursionCatagoryDetails.h */,
+				792772561DED67AE0062C1BD /* SAPExcursionCatagoryDetails.m */,
+				792772571DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.h */,
+				792772581DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.m */,
+				792772591DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.h */,
+				7927725A1DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.m */,
+				7927725B1DED67AE0062C1BD /* SAPExcursionOperationResponse.h */,
+				7927725C1DED67AE0062C1BD /* SAPExcursionOperationResponse.m */,
+				7927725D1DED67AE0062C1BD /* SAPExcursionOperationResponseBody.h */,
+				7927725E1DED67AE0062C1BD /* SAPExcursionOperationResponseBody.m */,
+				7927725F1DED67AE0062C1BD /* SAPExcursionPaxDetails.h */,
+				792772601DED67AE0062C1BD /* SAPExcursionPaxDetails.m */,
+				792772611DED67AE0062C1BD /* SAPExcursionPricing.h */,
+				792772621DED67AE0062C1BD /* SAPExcursionPricing.m */,
+				792772631DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.h */,
+				792772641DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.m */,
+				792772651DED67AE0062C1BD /* SAPExcursionTermsAndConditions.h */,
+				792772661DED67AE0062C1BD /* SAPExcursionTermsAndConditions.m */,
+				792772671DED67AE0062C1BD /* SAPExcursionVarriationDetails.h */,
+				792772681DED67AE0062C1BD /* SAPExcursionVarriationDetails.m */,
+				792772691DED67AE0062C1BD /* SAPHelper.h */,
+				7927726A1DED67AE0062C1BD /* SAPHelper.m */,
+				7927726B1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.h */,
+				7927726C1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.m */,
+				7927726D1DED67AE0062C1BD /* SAPOperationError.h */,
+				7927726E1DED67AE0062C1BD /* SAPOperationError.m */,
+				7927726F1DED67AE0062C1BD /* SAPOperationRealm.h */,
+				792772701DED67AE0062C1BD /* SAPOperationRealm.m */,
+				792772711DED67AE0062C1BD /* SAPPromoDetails.h */,
+				792772721DED67AE0062C1BD /* SAPPromoDetails.m */,
+				792772731DED67AE0062C1BD /* SAPQueryExcursionOperation.h */,
+				792772741DED67AE0062C1BD /* SAPQueryExcursionOperation.m */,
+				792772751DED67AE0062C1BD /* SAPQueryExcursionOperationBody.h */,
+				792772761DED67AE0062C1BD /* SAPQueryExcursionOperationBody.m */,
+				792772771DED67AE0062C1BD /* SAPReportItemDetail.h */,
+				792772781DED67AE0062C1BD /* SAPReportItemDetail.m */,
+				792772791DED67AE0062C1BD /* SAPReportOperationResponse.h */,
+				7927727A1DED67AE0062C1BD /* SAPReportOperationResponse.m */,
+				7927727B1DED67AE0062C1BD /* SAPReportOperationResponseBody.h */,
+				7927727C1DED67AE0062C1BD /* SAPReportOperationResponseBody.m */,
+				7927727D1DED67AE0062C1BD /* SAPReportQueryOperation.h */,
+				7927727E1DED67AE0062C1BD /* SAPReportQueryOperation.m */,
+				7927727F1DED67AE0062C1BD /* SAPReportRequestOperationBody.h */,
+				792772801DED67AE0062C1BD /* SAPReportRequestOperationBody.m */,
+				792772811DED67AE0062C1BD /* SAPReportResponse.h */,
+				792772821DED67AE0062C1BD /* SAPReportResponse.m */,
+				792772831DED67AE0062C1BD /* SAPRequestResultHandler.h */,
+				792772841DED67AE0062C1BD /* SAPRequestResultHandler.m */,
+				792772851DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.h */,
+				792772861DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.m */,
+				792772871DED67AE0062C1BD /* SAPSearchOperationResponse.h */,
+				792772881DED67AE0062C1BD /* SAPSearchOperationResponse.m */,
+				792772891DED67AE0062C1BD /* SAPSoapError.h */,
+				7927728A1DED67AE0062C1BD /* SAPSoapError.m */,
+			);
+			name = SoapHelperFiles;
+			sourceTree = "<group>";
+		};
+		792772BB1DED67D50062C1BD /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				792772BC1DED67D50062C1BD /* DDXMLElementAdditions.h */,
+				792772BD1DED67D50062C1BD /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		792772BE1DED67D50062C1BD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				792772BF1DED67D50062C1BD /* NSString+DDXML.h */,
+				792772C01DED67D50062C1BD /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		792772C81DED67D50062C1BD /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				792772C91DED67D50062C1BD /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		792772CF1DF5ADE60062C1BD /* TicketsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				792772D01DF5AE080062C1BD /* RegularTicketsViewController.h */,
+				792772D11DF5AE080062C1BD /* RegularTicketsViewController.m */,
+				792772D61DF5BB710062C1BD /* RegularTicketsTableViewCell.h */,
+				792772D71DF5BB710062C1BD /* RegularTicketsTableViewCell.m */,
+				792772D91DF6CFB20062C1BD /* BookingDetailsViewController.h */,
+				792772DA1DF6CFB20062C1BD /* BookingDetailsViewController.m */,
+				4A5D31FD1EA79F3100D14E3A /* ViewMoreVC.h */,
+				4A5D31FE1EA79F3100D14E3A /* ViewMoreVC.m */,
+			);
+			name = TicketsGroup;
+			sourceTree = "<group>";
+		};
+		79888F4C1DD1DB360021130E /* LoginRegisterMyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				79888F4A1DD1AED20021130E /* LoginRegister.storyboard */,
+				79888F4D1DD1DB5B0021130E /* LoginViewController.h */,
+				79888F4E1DD1DB5B0021130E /* LoginViewController.m */,
+				79888F501DD1DB6B0021130E /* SignUpViewController.h */,
+				79888F511DD1DB6B0021130E /* SignUpViewController.m */,
+				792772251DE46AB80062C1BD /* MyProfileViewController.h */,
+				792772261DE46AB80062C1BD /* MyProfileViewController.m */,
+				792E00BE1E07BBE300E70344 /* ForgotPasswordViewController.h */,
+				792E00BF1E07BBE300E70344 /* ForgotPasswordViewController.m */,
+			);
+			name = LoginRegisterMyProfile;
+			sourceTree = "<group>";
+		};
+		79888F6F1DDAF7CC0021130E /* BookTickets */ = {
+			isa = PBXGroup;
+			children = (
+				79888F701DDAF8F80021130E /* BookTickets.storyboard */,
+				792771F21DDDD3E00062C1BD /* BookingTicketsFirstViewController.h */,
+				792771F31DDDD3E00062C1BD /* BookingTicketsFirstViewController.m */,
+				792772D31DF5B1650062C1BD /* BookTicketsMainViewController.h */,
+				792772D41DF5B1650062C1BD /* BookTicketsMainViewController.m */,
+				79F5D8A21DF8133E00B857C4 /* PaymentGatewayViewController.h */,
+				79F5D8A31DF8133E00B857C4 /* PaymentGatewayViewController.m */,
+				79F5D8B11DFE76CE00B857C4 /* AddOn */,
+				792772CF1DF5ADE60062C1BD /* TicketsGroup */,
+			);
+			name = BookTickets;
+			sourceTree = "<group>";
+		};
+		79F5D8A51DF856C600B857C4 /* DrawerViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79F5D8A81DF8579D00B857C4 /* DrawerOptions.storyboard */,
+				79F5D8BE1E01771F00B857C4 /* Booking History */,
+				79F5D8AA1DF85B8E00B857C4 /* EntryRates */,
+			);
+			name = DrawerViewControllers;
+			sourceTree = "<group>";
+		};
+		79F5D8AA1DF85B8E00B857C4 /* EntryRates */ = {
+			isa = PBXGroup;
+			children = (
+				79F5D8AB1DF85B9F00B857C4 /* EntryRatesViewController.h */,
+				79F5D8AC1DF85B9F00B857C4 /* EntryRatesViewController.m */,
+				79F5D8AE1DF85BB900B857C4 /* EntryRatesTableViewCell.h */,
+				79F5D8AF1DF85BB900B857C4 /* EntryRatesTableViewCell.m */,
+				79D5A6731E027B6D0023F10D /* EventsOffersPromotionsViewController.h */,
+				79D5A6741E027B6D0023F10D /* EventsOffersPromotionsViewController.m */,
+				79D5A6761E027E7D0023F10D /* EventsChildViewController.h */,
+				79D5A6771E027E7D0023F10D /* EventsChildViewController.m */,
+			);
+			name = EntryRates;
+			sourceTree = "<group>";
+		};
+		79F5D8B11DFE76CE00B857C4 /* AddOn */ = {
+			isa = PBXGroup;
+			children = (
+				79F5D8B21DFE76E700B857C4 /* AddOnViewController.h */,
+				79F5D8B31DFE76E700B857C4 /* AddOnViewController.m */,
+				79F5D8B51DFEBFC700B857C4 /* AddOnCollectionViewCell.h */,
+				79F5D8B61DFEBFC700B857C4 /* AddOnCollectionViewCell.m */,
+				79F5D8B81DFFD70600B857C4 /* AddOnTableViewController.h */,
+				79F5D8B91DFFD70600B857C4 /* AddOnTableViewController.m */,
+				79F5D8BB1DFFD71E00B857C4 /* AddOnTableViewCell.h */,
+				79F5D8BC1DFFD71E00B857C4 /* AddOnTableViewCell.m */,
+			);
+			name = AddOn;
+			sourceTree = "<group>";
+		};
+		79F5D8BE1E01771F00B857C4 /* Booking History */ = {
+			isa = PBXGroup;
+			children = (
+				79F5D8BF1E01773300B857C4 /* BookingHistoryViewController.h */,
+				79F5D8C01E01773300B857C4 /* BookingHistoryViewController.m */,
+				79F5D8C21E01774F00B857C4 /* BookingHistoryTableViewCell.h */,
+				79F5D8C31E01774F00B857C4 /* BookingHistoryTableViewCell.m */,
+				79D5A6701E0276660023F10D /* BarcodeViewController.h */,
+				79D5A6711E0276660023F10D /* BarcodeViewController.m */,
+			);
+			name = "Booking History";
+			sourceTree = "<group>";
+		};
+		79F6AB241DBF204D00BA3C9A = {
+			isa = PBXGroup;
+			children = (
+				79F6AB2F1DBF204D00BA3C9A /* Essel World */,
+				79F6AB491DBF204D00BA3C9A /* Essel WorldTests */,
+				79F6AB541DBF204D00BA3C9A /* Essel WorldUITests */,
+				79F6AB2E1DBF204D00BA3C9A /* Products */,
+				8ACC8AAB6F611CC0F0C10F79 /* Frameworks */,
+				04F93582F4E473B18B7FD720 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		79F6AB2E1DBF204D00BA3C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F6AB2D1DBF204D00BA3C9A /* Essel World.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F6AB2F1DBF204D00BA3C9A /* Essel World */ = {
+			isa = PBXGroup;
+			children = (
+				2B96B7E6207F61720015B149 /* NEWSplashScreen.png */,
+				2B214D0C207F451500D945F9 /* SplashScreen.png */,
+				7970FF9D1E235DE400B93507 /* Essel World.entitlements */,
+				79F6AB331DBF204D00BA3C9A /* AppDelegate.h */,
+				79F6AB341DBF204D00BA3C9A /* AppDelegate.m */,
+				79888F4C1DD1DB360021130E /* LoginRegisterMyProfile */,
+				79F6AB6E1DBF3EC700BA3C9A /* Landing */,
+				79F5D8A51DF856C600B857C4 /* DrawerViewControllers */,
+				79888F6F1DDAF7CC0021130E /* BookTickets */,
+				792771FE1DE325340062C1BD /* Location/Park/Guide */,
+				792771FD1DE3248D0062C1BD /* Rides/Food/Other Attraction */,
+				79F6AB3C1DBF204D00BA3C9A /* Assets.xcassets */,
+				79F6AB3E1DBF204D00BA3C9A /* LaunchScreen.storyboard */,
+				79F6AB411DBF204D00BA3C9A /* Info.plist */,
+				4136C946206A53D3005C3A93 /* Images.xcassets */,
+				79F6AB301DBF204D00BA3C9A /* Supporting Files */,
+			);
+			path = "Essel World";
+			sourceTree = "<group>";
+		};
+		79F6AB301DBF204D00BA3C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4130C9E32064EA60002D80C1 /* Utilities.h */,
+				4130C9DC2064E5AC002D80C1 /* Utilities.m */,
+				79E57F651E45B02C0043AC33 /* splash_screen.gif */,
+				798190D31E2E013500647C58 /* UIImage+animatedGIF.h */,
+				798190D41E2E013500647C58 /* UIImage+animatedGIF.m */,
+				79F5D8981DF7F27C00B857C4 /* CCTool.h */,
+				79F5D8991DF7F27C00B857C4 /* CCTool.m */,
+				79F5D89B1DF7F29300B857C4 /* Base64.h */,
+				79F5D89C1DF7F29300B857C4 /* Base64.m */,
+				792772281DED67810062C1BD /* Soap */,
+				79F6AB671DBF3D4500BA3C9A /* Third Party */,
+				79F6AB631DBF2F8200BA3C9A /* Oswald-Light.otf */,
+				79F6AB651DBF30A200BA3C9A /* Oswald-Regular.ttf */,
+				79F6AB311DBF204D00BA3C9A /* main.m */,
+				792771F71DE011500062C1BD /* EsselWorld.pch */,
+				792771F81DE012880062C1BD /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F6AB491DBF204D00BA3C9A /* Essel WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F6AB4A1DBF204D00BA3C9A /* Essel_WorldTests.m */,
+				79F6AB4C1DBF204D00BA3C9A /* Info.plist */,
+			);
+			path = "Essel WorldTests";
+			sourceTree = "<group>";
+		};
+		79F6AB541DBF204D00BA3C9A /* Essel WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79F6AB551DBF204D00BA3C9A /* Essel_WorldUITests.m */,
+				79F6AB571DBF204D00BA3C9A /* Info.plist */,
+			);
+			path = "Essel WorldUITests";
+			sourceTree = "<group>";
+		};
+		79F6AB671DBF3D4500BA3C9A /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				79F6AB681DBF3D7900BA3C9A /* SwipeView.h */,
+				79F6AB691DBF3D7900BA3C9A /* SwipeView.m */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		79F6AB6E1DBF3EC700BA3C9A /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				030AF7FE1EA9CA2A00A04BAB /* DrawerViewController.h */,
+				030AF7FF1EA9CA2A00A04BAB /* DrawerViewController.m */,
+				030AF7FC1EA9C9D300A04BAB /* Landing.storyboard */,
+				79E57F671E45B05D0043AC33 /* GifAnimatingViewController.h */,
+				79E57F681E45B05D0043AC33 /* GifAnimatingViewController.m */,
+				79F6AB361DBF204D00BA3C9A /* LandingViewController.h */,
+				79F6AB371DBF204D00BA3C9A /* LandingViewController.m */,
+				79F6AB6B1DBF3EBD00BA3C9A /* LandingDetailViewController.h */,
+				79F6AB6C1DBF3EBD00BA3C9A /* LandingDetailViewController.m */,
+				79E57F621E459F930043AC33 /* GuideMapViewController.h */,
+				79E57F631E459F930043AC33 /* GuideMapViewController.m */,
+				79888F561DD307C30021130E /* MenuLauncherViewController.h */,
+				79888F571DD307C30021130E /* MenuLauncherViewController.m */,
+			);
+			name = Landing;
+			sourceTree = "<group>";
+		};
+		8ACC8AAB6F611CC0F0C10F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4130C9D62064E1EF002D80C1 /* libcrypto.a */,
+				4130C9D72064E1F0002D80C1 /* libssl.a */,
+				79E57F6A1E45B18E0043AC33 /* ImageIO.framework */,
+				79A99DF91E0E56C500F9F747 /* CoreLocation.framework */,
+				79888F671DD9CB530021130E /* Reachability.h */,
+				79888F681DD9CB540021130E /* Reachability.m */,
+				79888F5D1DD9C79D0021130E /* AudioToolbox.framework */,
+				8172F4B876AD08DAD276B0B0 /* libPods-Essel World.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F6AB2C1DBF204D00BA3C9A /* Essel World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F6AB5A1DBF204D00BA3C9A /* Build configuration list for PBXNativeTarget "Essel World" */;
+			buildPhases = (
+				DA2748D4F8F267F1E51BB43B /* [CP] Check Pods Manifest.lock */,
+				79F6AB291DBF204D00BA3C9A /* Sources */,
+				79F6AB2A1DBF204D00BA3C9A /* Frameworks */,
+				79F6AB2B1DBF204D00BA3C9A /* Resources */,
+				A0B2A6BF59F6B0F369A284AF /* [CP] Embed Pods Frameworks */,
+				386763A40F6DF610F39A28C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Essel World";
+			productName = "Essel World";
+			productReference = 79F6AB2D1DBF204D00BA3C9A /* Essel World.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F6AB251DBF204D00BA3C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kwebmaker;
+				TargetAttributes = {
+					79F6AB2C1DBF204D00BA3C9A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4PHWK2GQ99;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 79F6AB281DBF204D00BA3C9A /* Build configuration list for PBXProject "Essel World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F6AB241DBF204D00BA3C9A;
+			productRefGroup = 79F6AB2E1DBF204D00BA3C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F6AB2C1DBF204D00BA3C9A /* Essel World */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F6AB2B1DBF204D00BA3C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792772001DE3255B0062C1BD /* RidesFoodOther.storyboard in Resources */,
+				2B96B7E7207F61720015B149 /* NEWSplashScreen.png in Resources */,
+				7927721D1DE452490062C1BD /* LocationParkGuide.storyboard in Resources */,
+				79F6AB661DBF30A200BA3C9A /* Oswald-Regular.ttf in Resources */,
+				79888F711DDAF8F80021130E /* BookTickets.storyboard in Resources */,
+				79888F4B1DD1AED20021130E /* LoginRegister.storyboard in Resources */,
+				79F6AB401DBF204D00BA3C9A /* LaunchScreen.storyboard in Resources */,
+				030AF7FD1EA9C9D300A04BAB /* Landing.storyboard in Resources */,
+				79F5D8A91DF8579D00B857C4 /* DrawerOptions.storyboard in Resources */,
+				79F6AB3D1DBF204D00BA3C9A /* Assets.xcassets in Resources */,
+				4136C947206A53D3005C3A93 /* Images.xcassets in Resources */,
+				79E57F661E45B02C0043AC33 /* splash_screen.gif in Resources */,
+				2B214D0D207F451500D945F9 /* SplashScreen.png in Resources */,
+				79F6AB641DBF2F8200BA3C9A /* Oswald-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		386763A40F6DF610F39A28C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Essel World/Pods-Essel World-resources.sh",
+				"${PODS_ROOT}/THCalendarDatePicker/THCalendarDatePicker/THDateDay.xib",
+				"${PODS_ROOT}/THCalendarDatePicker/THCalendarDatePicker/THDatePickerViewController.xib",
+				"${PODS_ROOT}/THCalendarDatePicker/THCalendarDatePicker/Images.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/THDateDay.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/THDatePickerViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Images.xcassets",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Essel World/Pods-Essel World-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B2A6BF59F6B0F369A284AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Essel World/Pods-Essel World-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2748D4F8F267F1E51BB43B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Essel World-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F6AB291DBF204D00BA3C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4130C9E22064E8C6002D80C1 /* Utilities.m in Sources */,
+				79D5A6751E027B6D0023F10D /* EventsOffersPromotionsViewController.m in Sources */,
+				7927728B1DED67AE0062C1BD /* SAPAdditionalInformation.m in Sources */,
+				792772D21DF5AE090062C1BD /* RegularTicketsViewController.m in Sources */,
+				79F5D8B41DFE76E700B857C4 /* AddOnViewController.m in Sources */,
+				792772031DE325EE0062C1BD /* OtherAttractionViewController.m in Sources */,
+				79F6AB381DBF204D00BA3C9A /* LandingViewController.m in Sources */,
+				79F5D8C41E01774F00B857C4 /* BookingHistoryTableViewCell.m in Sources */,
+				792772931DED67AE0062C1BD /* SAPBookingOperationResponse.m in Sources */,
+				79F6AB6D1DBF3EBD00BA3C9A /* LandingDetailViewController.m in Sources */,
+				792772A51DED67AE0062C1BD /* SAPExcursionPaxDetails.m in Sources */,
+				7927729D1DED67AE0062C1BD /* SAPExcursionBookingResponseBody.m in Sources */,
+				792772961DED67AE0062C1BD /* SAPCancellationDetailsBody.m in Sources */,
+				7927728E1DED67AE0062C1BD /* SAPAuthenticateOperationBody.m in Sources */,
+				7927729A1DED67AE0062C1BD /* SAPCustomExcursionOperation.m in Sources */,
+				79888F691DD9CB540021130E /* Reachability.m in Sources */,
+				792772D51DF5B1650062C1BD /* BookTicketsMainViewController.m in Sources */,
+				792772D81DF5BB710062C1BD /* RegularTicketsTableViewCell.m in Sources */,
+				792772B01DED67AE0062C1BD /* SAPQueryExcursionOperationBody.m in Sources */,
+				79E57F691E45B05D0043AC33 /* GifAnimatingViewController.m in Sources */,
+				792772AA1DED67AE0062C1BD /* SAPHelper.m in Sources */,
+				79888F4F1DD1DB5B0021130E /* LoginViewController.m in Sources */,
+				792772111DE412760062C1BD /* RidesViewController.m in Sources */,
+				792772941DED67AE0062C1BD /* SAPBookingStatusOperationBody.m in Sources */,
+				792772A11DED67AE0062C1BD /* SAPExcursionCatagoryDetailsBody.m in Sources */,
+				792772DB1DF6CFB20062C1BD /* BookingDetailsViewController.m in Sources */,
+				792772971DED67AE0062C1BD /* SAPCancellationResponseDetailsBody.m in Sources */,
+				79F5D8BD1DFFD71E00B857C4 /* AddOnTableViewCell.m in Sources */,
+				792772A41DED67AE0062C1BD /* SAPExcursionOperationResponseBody.m in Sources */,
+				79F5D8B01DF85BB900B857C4 /* EntryRatesTableViewCell.m in Sources */,
+				792772211DE458E60062C1BD /* ParkingTimingViewController.m in Sources */,
+				792772901DED67AE0062C1BD /* SAPAuthenticateOperationResponseBody.m in Sources */,
+				79F5D8C11E01773300B857C4 /* BookingHistoryViewController.m in Sources */,
+				792771F41DDDD3E00062C1BD /* BookingTicketsFirstViewController.m in Sources */,
+				792772921DED67AE0062C1BD /* SAPBookCustomExcursionOperationResponse.m in Sources */,
+				792772CC1DED67D50062C1BD /* DDXMLDocument.m in Sources */,
+				792772B31DED67AE0062C1BD /* SAPReportOperationResponseBody.m in Sources */,
+				792772AD1DED67AE0062C1BD /* SAPOperationRealm.m in Sources */,
+				792772A81DED67AE0062C1BD /* SAPExcursionTermsAndConditions.m in Sources */,
+				792772B41DED67AE0062C1BD /* SAPReportQueryOperation.m in Sources */,
+				7927729F1DED67AE0062C1BD /* SAPExcursionCarPickupDetails.m in Sources */,
+				79F5D89D1DF7F29300B857C4 /* Base64.m in Sources */,
+				792772B61DED67AE0062C1BD /* SAPReportResponse.m in Sources */,
+				792772A01DED67AE0062C1BD /* SAPExcursionCatagoryDetails.m in Sources */,
+				792772AB1DED67AE0062C1BD /* SAPMiscellaneousCategoryInfo.m in Sources */,
+				79F5D8AD1DF85B9F00B857C4 /* EntryRatesViewController.m in Sources */,
+				792772181DE433340062C1BD /* FoodAndBeveragesViewController.m in Sources */,
+				792772AF1DED67AE0062C1BD /* SAPQueryExcursionOperation.m in Sources */,
+				792772B11DED67AE0062C1BD /* SAPReportItemDetail.m in Sources */,
+				792772CE1DED67D50062C1BD /* DDXMLNode.m in Sources */,
+				792772B91DED67AE0062C1BD /* SAPSearchOperationResponse.m in Sources */,
+				792772991DED67AE0062C1BD /* SAPCustomExcursionBookingDetailsBody.m in Sources */,
+				7927729B1DED67AE0062C1BD /* SAPCustomExcursionOperationBody.m in Sources */,
+				79F6AB6A1DBF3D7900BA3C9A /* SwipeView.m in Sources */,
+				798190D51E2E013600647C58 /* UIImage+animatedGIF.m in Sources */,
+				79D5A6721E0276660023F10D /* BarcodeViewController.m in Sources */,
+				792772CB1DED67D50062C1BD /* NSString+DDXML.m in Sources */,
+				792772071DE326600062C1BD /* OtherAttractionCollectionViewCell.m in Sources */,
+				792772951DED67AE0062C1BD /* SAPBookingStatusOperationResponse.m in Sources */,
+				792772911DED67AE0062C1BD /* SAPAuthenticationRealm.m in Sources */,
+				79F5D8A41DF8133E00B857C4 /* PaymentGatewayViewController.m in Sources */,
+				79F5D8B71DFEBFC700B857C4 /* AddOnCollectionViewCell.m in Sources */,
+				792772B51DED67AE0062C1BD /* SAPReportRequestOperationBody.m in Sources */,
+				79F6AB351DBF204D00BA3C9A /* AppDelegate.m in Sources */,
+				792772141DE412870062C1BD /* RidesCollectionViewController.m in Sources */,
+				792772981DED67AE0062C1BD /* SAPCancelOperationResponse.m in Sources */,
+				79888F581DD307C30021130E /* MenuLauncherViewController.m in Sources */,
+				030AF8001EA9CA2A00A04BAB /* DrawerViewController.m in Sources */,
+				792772B21DED67AE0062C1BD /* SAPReportOperationResponse.m in Sources */,
+				7927728F1DED67AE0062C1BD /* SAPAuthenticateOperationResponse.m in Sources */,
+				4A5D31FF1EA79F3100D14E3A /* ViewMoreVC.m in Sources */,
+				792772BA1DED67AE0062C1BD /* SAPSoapError.m in Sources */,
+				792772CA1DED67D50062C1BD /* DDXMLElementAdditions.m in Sources */,
+				792772A91DED67AE0062C1BD /* SAPExcursionVarriationDetails.m in Sources */,
+				792772241DE458FA0062C1BD /* ParkingTimingTableViewCell.m in Sources */,
+				792772A61DED67AE0062C1BD /* SAPExcursionPricing.m in Sources */,
+				79888F521DD1DB6B0021130E /* SignUpViewController.m in Sources */,
+				792772AE1DED67AE0062C1BD /* SAPPromoDetails.m in Sources */,
+				7927728D1DED67AE0062C1BD /* SAPArrayOfReportItemDetail.m in Sources */,
+				7927720D1DE407DF0062C1BD /* Rides-OtherViewController.m in Sources */,
+				792772A31DED67AE0062C1BD /* SAPExcursionOperationResponse.m in Sources */,
+				792772A21DED67AE0062C1BD /* SAPExcursionConfirmBookingDetailsBody.m in Sources */,
+				7927721B1DE433510062C1BD /* FoodAndBeveragesCollectionViewCell.m in Sources */,
+				7927729C1DED67AE0062C1BD /* SAPExcursionBookingResponse.m in Sources */,
+				792772B71DED67AE0062C1BD /* SAPRequestResultHandler.m in Sources */,
+				79F5D89A1DF7F27C00B857C4 /* CCTool.m in Sources */,
+				79D5A6781E027E7D0023F10D /* EventsChildViewController.m in Sources */,
+				7927729E1DED67AE0062C1BD /* SAPExcursionCancellationPolicy.m in Sources */,
+				792772271DE46AB80062C1BD /* MyProfileViewController.m in Sources */,
+				792E00C01E07BBE300E70344 /* ForgotPasswordViewController.m in Sources */,
+				792772B81DED67AE0062C1BD /* SAPSearchCustomExcursionOperationResponse.m in Sources */,
+				79F6AB321DBF204D00BA3C9A /* main.m in Sources */,
+				792772CD1DED67D50062C1BD /* DDXMLElement.m in Sources */,
+				79F5D8BA1DFFD70600B857C4 /* AddOnTableViewController.m in Sources */,
+				792772AC1DED67AE0062C1BD /* SAPOperationError.m in Sources */,
+				792772A71DED67AE0062C1BD /* SAPexcursionSOAPSoapBinding.m in Sources */,
+				79E57F641E459F930043AC33 /* GuideMapViewController.m in Sources */,
+				7927728C1DED67AE0062C1BD /* SAPArrayOfExcursionCatagoryDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79F6AB3E1DBF204D00BA3C9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F6AB3F1DBF204D00BA3C9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F6AB581DBF204D00BA3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kwebmaker Digital Agency (4PHWK2GQ99)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kwebmaker Digital Agency (4PHWK2GQ99)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79F6AB591DBF204D00BA3C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kwebmaker Digital Agency (4PHWK2GQ99)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kwebmaker Digital Agency (4PHWK2GQ99)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F6AB5B1DBF204D00BA3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D745B2368C833BA1970EB7F5 /* Pods-Essel World.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4PHWK2GQ99;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/KNSemiModalViewController_hons82\"",
+					"\"${PODS_ROOT}/Headers/Public/MMDrawerController\"",
+					"\"${PODS_ROOT}/Headers/Public/THCalendarDatePicker\"",
+					/usr/include/libxml2,
+					"$(PROJECT_DIR)/openssl/include",
+				);
+				INFOPLIST_FILE = "Essel World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KNSemiModalViewController_hons82\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MMDrawerController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/THCalendarDatePicker\"",
+					"$(PROJECT_DIR)/openssl/lib",
+					"$(PROJECT_DIR)/Certificates",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"KNSemiModalViewController_hons82\"",
+					"-l\"MMDrawerController\"",
+					"-l\"THCalendarDatePicker\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebmaker.com.Essel-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a7d3f50-caf1-48da-ac9b-cbf1d1b6af4b";
+				PROVISIONING_PROFILE_SPECIFIER = "Essel-World";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79F6AB5C1DBF204D00BA3C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BE9AAAF8A0E7D0E82C8DB0 /* Pods-Essel World.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4PHWK2GQ99;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/KNSemiModalViewController_hons82\"",
+					"\"${PODS_ROOT}/Headers/Public/MMDrawerController\"",
+					"\"${PODS_ROOT}/Headers/Public/THCalendarDatePicker\"",
+					/usr/include/libxml2,
+					"$(PROJECT_DIR)/openssl/include",
+				);
+				INFOPLIST_FILE = "Essel World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KNSemiModalViewController_hons82\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MMDrawerController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/THCalendarDatePicker\"",
+					"$(PROJECT_DIR)/openssl/lib",
+					"$(PROJECT_DIR)/Certificates",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"KNSemiModalViewController_hons82\"",
+					"-l\"MMDrawerController\"",
+					"-l\"THCalendarDatePicker\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwebmaker.com.Essel-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a7d3f50-caf1-48da-ac9b-cbf1d1b6af4b";
+				PROVISIONING_PROFILE_SPECIFIER = "Essel-World";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F6AB281DBF204D00BA3C9A /* Build configuration list for PBXProject "Essel World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6AB581DBF204D00BA3C9A /* Debug */,
+				79F6AB591DBF204D00BA3C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F6AB5A1DBF204D00BA3C9A /* Build configuration list for PBXNativeTarget "Essel World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6AB5B1DBF204D00BA3C9A /* Debug */,
+				79F6AB5C1DBF204D00BA3C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F6AB251DBF204D00BA3C9A /* Project object */;
+}
